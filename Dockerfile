@@ -1,6 +1,6 @@
-FROM node:12.16.1
+FROM cypress/base:12.16.1
 
-RUN apt-get update && apt-get install -y python3 python3-pip make bash python3 g++ openssl util-linux grep bsdmainutils xvfb && \
+RUN apt-get update && apt-get install -y make bash g++ openssl util-linux grep bsdmainutils python3 python3-pip && \
 	pip3 install awscli
 
 RUN git clone https://github.com/elasticdog/transcrypt.git /transcrypt
