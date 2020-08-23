@@ -1,6 +1,6 @@
 # noticeeverything/pipelines
 
-- Node v12.16.1
+- Node v12.18.3
 - Yarn v1.22.4
 
 A minimal docker image that includes Node, Git, Yarn, AWS CLI and Transcrypt.
